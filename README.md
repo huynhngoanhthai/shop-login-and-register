@@ -33,8 +33,7 @@ Các bạn đang đọc phần mô tả chi tiết về `ứng dụng Android` t
 
 Có thể giải thích yêu cầu đề tài ngắn gọn như sau:
 
-**Android** - Ứng dụng để bệnh nhân đặt lịch khám bệnh, theo dõi phác đồ điều trị và bệnh án của mình. Có thể đặt lịch khám bệnh
-cho người thân trong gia đình như ông, bà, bố, mẹ & không nhất thiết người khám bệnh phải là bản thân mình.
+**Android** - Ứng dụng để bệnh nhân đặt nước, mình đang làm về chức năng đăng nhập đăng ký, có otp.
 
 # [**API Document**](#api-document)
 
