@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/bb">
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="182dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="225dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView android:id="@+id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Resignter" android:textColor="@color/white" android:textSize="34sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.13"/>
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/input_et"
+        android:drawableRight="@drawable/ic_person"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName|textAutoComplete"
+        android:minHeight="48dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_et"
+        android:drawableRight="@drawable/ic_email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="none|textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/inputName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputName"
+        app:layout_constraintTop_toBottomOf="@+id/inputName" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_et"
+        android:drawableRight="@drawable/ic_lock"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPersonName|textPassword"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/inputEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputEmail"
+        app:layout_constraintTop_toBottomOf="@+id/inputEmail"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/inputPasswordConfirm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_et"
+        android:drawableRight="@drawable/ic_check_circle"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPersonName|textPassword"
+        android:minHeight="48dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/inputPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputPassword"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+
+    <Button
+        android:id="@+id/buttonResignter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="multiply"
+        android:text="RESIGNTER"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/inputPasswordConfirm"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputPasswordConfirm"
+        app:layout_constraintTop_toBottomOf="@+id/inputPasswordConfirm"
+        app:rippleColor="@color/white" />
+    <TextView android:id="@+id/textViewHaveAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:shadowColor="@color/white" android:text="Aready Have an Account?" android:textColor="@color/white" android:textSize="16sp" app:layout_constraintEnd_toEndOf="@+id/buttonResignter" app:layout_constraintStart_toStartOf="@+id/buttonResignter" app:layout_constraintTop_toBottomOf="@+id/buttonResignter"/>
+
+    <FrameLayout
+        android:id="@+id/instructPassword"
+        android:layout_width="237dp"
+        android:layout_height="116dp"
+        android:visibility="gone"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-1dp"
+        android:alwaysDrawnWithCache="false"
+        android:background="@drawable/bg_chat"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/inputPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/check_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:drawableRight="@drawable/ic_check_circle_false"
+            android:paddingLeft="10dp"
+            android:text="ít nhất 1 kích tự đặc biệt"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/check_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:drawableRight="@drawable/ic_check_circle_false"
+            android:paddingLeft="10dp"
+            android:text="ít nhất 1 chữ cái HOA"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/check_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:drawableRight="@drawable/ic_check_circle_false"
+            android:paddingLeft="10dp"
+            android:text="ít nhất 1 chữ và số"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/check_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="75dp"
+            android:drawableRight="@drawable/ic_check_circle_false"
+            android:paddingLeft="10dp"
+            android:text="kích thước từ 8-30 ký tự"
+            android:textColor="@color/black" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
