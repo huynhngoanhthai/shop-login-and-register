@@ -43,7 +43,7 @@ Nếu các bạn có nhu cầu muốn tham khảo, hãy ấn vào [**đây**](ht
 # [**Database**](#database)
 
 <p align="center">
-    <img src="./photo/database-version-12-prototype.png" />
+    <img src="./photo/table-users.png" />
 </p>
 <h3 align="center">
 
@@ -56,7 +56,8 @@ Phần này mình sẽ giới thiệu về tất cả các giao diện và các 
 ## [**1. Login**](#1-login)
 
 <p align="center">
-    <img src="./photo/Android003.jpg" height="600px"/>
+    <img src="./photo/login.png" height="600px"/>
+    <img src="./photo/login-compele.png" height="600px"/>
 </p>
 <h3 align="center">
 ***Màn hình đăng nhập***
@@ -74,9 +75,11 @@ Phần này mình sẽ giới thiệu về tất cả các giao diện và các 
  ## [**2. Register**](#2-register)
   
 <p align="center">
-    <img src="./photo/Android004.jpg" height="600px"/>
-    <img src="./photo/Android004.jpg" height="600px"/>
-    <img src="./photo/Android004.jpg" height="600px"/>
+    <img src="./photo/register.png" height="600px"/>
+    <img src="./photo/register-security-suggest.png" height="600px"/>
+    <img src="./photo/register-compele.png" height="600px"/>
+    
+  
 </p>
 <h3 align="center">
 ***Màn hình đăng ký***
@@ -84,7 +87,7 @@ Phần này mình sẽ giới thiệu về tất cả các giao diện và các 
 
 Ở đây người dùng có thể tạo tài khoản. Tài khoản người dùng sẽ được tao khi và chỉ khi tất cả được tích xanh ✅ ở đây tài khoản người dùng sẽ được lưu trử ở database như action = 'false' vì chưa xác thực tải khoản này sẽ tựng động bị xóa nếu trong 5 phút người dùng không xác thực
 <p align="center">
-      <img  src="./photo/select-users.jpg" height="600px"/>
+      <img  src="./photo/table-user-not-action.png" height="150px"/>
 </p>
 <h3 align="center">
 ***Dữ liệu các tài khoản trong Database***
