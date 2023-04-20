@@ -97,10 +97,27 @@ Phần này mình sẽ giới thiệu về tất cả các giao diện và các 
   
   
 <p align="center">
-    <img src="./photo/otp.jpg" height="600px"/>
+    <img src="./photo/otp.png" height="600px"/>
 </p>
-  
   Ở đây người dùng sẽ được 2 sự lựa chọn:
   - gửi lại otp
   - xác thực otp
   khi xác thự thành công thì tài khoản ở chế độ action = 'true' 
+  <p align="center">
+    <img  src="./photo/table-user-action.png" height="150px"/>
+</p>
+<h3 align="center">
+***Dữ liệu các tài khoản trong Database***
+</h3>
+
+
+# [**Post Script**](#post-script)
+
+Phía trên là toàn bộ các chức năng và giao diện mà mình đã thực hiện trong trong đồ án tốt nghiệp này. 
+
+
+Phong hi vọng phần chia sẻ ở phía trên sẽ ít nhiều đem lại hữu ích cho các bạn.
+
+
+# [**Made with 💘 and Android**](#made-with--and-android)
+  
