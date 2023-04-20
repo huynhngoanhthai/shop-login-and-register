@@ -4,11 +4,10 @@
 - [**Topic**](#topic)
 - [**API Document**](#api-document)
 - [**Database**](#database)
-- [**Directory Structure**](#directory-structure)
 - [**Major Features**](#major-features)
-  - [**1. Launch**](#1-launch)
-  - [**2. Login**](#2-login)
-  - [**3. Home**](#3-home)
+  - [**1. Login**](#1-login)
+  - [**2. Register**](#2-register)
+  - [**3. OTP**](#3-otp)
 - [**Post Script**](#post-script)
 - [**Made with 💘 and Android**](#made-with--and-android)
 # [**Introduction**](#introduction)
@@ -50,3 +49,56 @@ Nếu các bạn có nhu cầu muốn tham khảo, hãy ấn vào [**đây**](ht
 <h3 align="center">
 
 ***Sơ đồ cơ sở dữ liệu***
+  
+# [**Major Features**](#major-features)
+
+Phần này mình sẽ giới thiệu về tất cả các giao diện và các chức năng chính trong ứng dụng
+
+## [**1. Login**](#1-login)
+
+<p align="center">
+    <img src="./photo/Android003.jpg" height="600px"/>
+</p>
+<h3 align="center">
+***Màn hình đăng nhập***
+</h3>
+  
+ Ứng dụng hỗ trợ người dùng hai tùy chọn để đăng nhập vào chương trình, bao gồm:
+
+1. Đăng nhập bằng email và password đã đăng ký 
+
+2. Đăng nhập bằng tài khoản email và otp
+  
+ Lưu ý:
+  Tài khoản chưa xác thực thì không thể đăng nhập được
+
+ ## [**2. Register**](#2-register)
+  
+<p align="center">
+    <img src="./photo/Android004.jpg" height="600px"/>
+    <img src="./photo/Android004.jpg" height="600px"/>
+    <img src="./photo/Android004.jpg" height="600px"/>
+</p>
+<h3 align="center">
+***Màn hình đăng ký***
+</h3>
+
+Ở đây người dùng có thể tạo tài khoản. Tài khoản người dùng sẽ được tao khi và chỉ khi tất cả được tích xanh ✅ ở đây tài khoản người dùng sẽ được lưu trử ở database như action = 'false' vì chưa xác thực tải khoản này sẽ tựng động bị xóa nếu trong 5 phút người dùng không xác thực
+<p align="center">
+      <img  src="./photo/select-users.jpg" height="600px"/>
+</p>
+<h3 align="center">
+***Dữ liệu các tài khoản trong Database***
+</h3>
+  
+## [**3. OTP**](#3-otp)
+  
+  
+<p align="center">
+    <img src="./photo/otp.jpg" height="600px"/>
+</p>
+  
+  Ở đây người dùng sẽ được 2 sự lựa chọn:
+  - gửi lại otp
+  - xác thực otp
+  khi xác thự thành công thì tài khoản ở chế độ action = 'true' 
