@@ -20,7 +20,7 @@ và đề tài do mình thực hiện để các bạn có thể tham khảo. M�
 sẽ hỗ trợ phần nào cho các bạn.
 
 Đồ án này có tất cả là 2 thành phần bao gồm:
-* [**API**](https://github.com/Phong-Kaster/PTIT-Do-An-Tot-Nghiep) 
+* [**API**](https://github.com/huynhngoanhthai/API-Android) 
 * [**Ứng dụng Android**](#) (Hiện tại)
 Các bạn đang đọc phần mô tả chi tiết về `ứng dụng Android` trong đoán này trong tài liệu này mình sẽ mô tả chi tiết về cấu trúc của các thư mục các tính năng nổi bật nhất và một số những cái lưu ý khi các bạn tham khảo đồ án này.
 
@@ -38,7 +38,7 @@ Có thể giải thích yêu cầu đề tài ngắn gọn như sau:
 # [**API Document**](#api-document)
 
 Mình có soạn thảo và liệt kê chi tiết cách sử dụng các chức năng mà mình đã xây dựng thành tài liệu.
-Nếu các bạn có nhu cầu muốn tham khảo, hãy ấn vào [**đây**](https://github.com/Phong-Kaster/PTIT-Do-An-Tot-Nghiep-API-Document) để đọc chi tiết cách sử dụng API này.
+Nếu các bạn có nhu cầu muốn tham khảo, hãy ấn vào [**đây**](https://github.com/huynhngoanhthai/API-Android) để đọc chi tiết cách sử dụng API này.
 
 # [**Database**](#database)
 
