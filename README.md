@@ -11,7 +11,7 @@
 - [**Post Script**](#post-script)
 - [**Made with 💘 and Android**](#made-with--and-android)
 # [**Introduction**](#introduction)
-hào các bạn, mình tên là Nguyễn Thành Phong. 
+hào các bạn, mình tên là Huỳnh Ngô Anh Thái. 
 Mã số N19DCCN188. 
 Niên khóa 2019-2024. 
 
